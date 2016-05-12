@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM nimmis/debian
 
 # Install Nginx.
 RUN \
